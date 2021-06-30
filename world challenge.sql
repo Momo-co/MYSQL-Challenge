@@ -75,3 +75,11 @@ USE world;
 -- FROM country
 -- WHERE Population/SurfaceArea != 0
 -- ORDER BY Population/SurfaceArea ASC LIMIT 10;
+
+-- world challenge 14
+-- SELECT COUNT(*), Language
+-- FROM countrylanguage
+-- GROUP BY Language
+-- HAVING COUNT(*) = 1;
+
+
