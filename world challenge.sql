@@ -53,3 +53,10 @@ USE world;
 -- SELECT *
 -- FROM country
 -- ORDER BY SurfaceArea DESC LIMIT 10;
+
+-- world challenge 11
+-- SELECT ID, ct.Name, co.Name, ct.Population
+-- FROM city ct
+-- JOIN country co ON ct.CountryCode = co.Code
+-- WHERE co.Name = 'Japan'
+-- ORDER BY ct.Population DESC LIMIT 5 ;
