@@ -22,3 +22,11 @@ USE world;
 -- JOIN country co ON ct.CountryCode = co.Code
 -- WHERE co.Name = 'Spain' AND ID = Capital;
 
+-- world challenge 5
+-- SELECT Name, Language, Region 
+-- FROM countrylanguage cl
+-- JOIN country co ON cl.CountryCode = co.Code
+-- WHERE Region = 'Southern and Central Asia';
+
+
+
