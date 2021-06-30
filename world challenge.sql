@@ -9,3 +9,10 @@ USE world;
 -- SELECT Name, Population, LifeExpectancy
 -- FROM country
 -- WHERE Name = 'Argentina';
+
+-- world challenge 3
+-- SELECT *
+-- FROM country
+-- WHERE IndepYear IS NOT NULL AND GNPOld IS NOT NULL AND LifeExpectancy IS NOT NULL
+-- ORDER BY LifeExpectancy DESC LIMIT 1;
+
