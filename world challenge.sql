@@ -38,3 +38,9 @@ USE world;
 -- FROM city ct
 -- JOIN country co ON ct.CountryCode = co.Code
 -- WHERE co.Name = 'China';
+
+-- world challenge 8
+-- SELECT *
+-- FROM country
+-- WHERE IndepYear IS NOT NULL AND GNPOld IS NOT NULL AND LifeExpectancy IS NOT NULL
+-- ORDER BY Population ASC LIMIT 1;
