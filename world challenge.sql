@@ -69,3 +69,9 @@ USE world;
 -- SELECT Code, Name, HeadOfState
 -- FROM country
 -- WHERE HeadOfState = 'Elizabeth II';
+
+-- world challenge 13
+-- SELECT * 
+-- FROM country
+-- WHERE Population/SurfaceArea != 0
+-- ORDER BY Population/SurfaceArea ASC LIMIT 10;
