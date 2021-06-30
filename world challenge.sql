@@ -16,3 +16,9 @@ USE world;
 -- WHERE IndepYear IS NOT NULL AND GNPOld IS NOT NULL AND LifeExpectancy IS NOT NULL
 -- ORDER BY LifeExpectancy DESC LIMIT 1;
 
+-- world challenge 4
+-- SELECT *
+-- FROM city ct
+-- JOIN country co ON ct.CountryCode = co.Code
+-- WHERE co.Name = 'Spain' AND ID = Capital;
+
