@@ -48,3 +48,8 @@ USE world;
 -- world challenge 9
 -- SELECT COUNT(*) 
 -- FROM country;
+
+-- world challenge 10
+-- SELECT *
+-- FROM country
+-- ORDER BY SurfaceArea DESC LIMIT 10;
