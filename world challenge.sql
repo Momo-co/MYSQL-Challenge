@@ -33,3 +33,8 @@ USE world;
 -- FROM city
 -- WHERE Name LIKE 'F%';
 
+-- world challenge 7
+-- SELECT COUNT(*), co.Name
+-- FROM city ct
+-- JOIN country co ON ct.CountryCode = co.Code
+-- WHERE co.Name = 'China';
