@@ -66,6 +66,6 @@ USE world;
 -- SET HeadOfState = 'Elizabeth II'
 -- WHERE HeadOfState = 'Elisabeth II';
 
--- SELECT *
+-- SELECT Code, Name, HeadOfState
 -- FROM country
 -- WHERE HeadOfState = 'Elizabeth II';
