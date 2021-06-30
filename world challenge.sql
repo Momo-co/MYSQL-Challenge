@@ -28,5 +28,8 @@ USE world;
 -- JOIN country co ON cl.CountryCode = co.Code
 -- WHERE Region = 'Southern and Central Asia';
 
-
+-- world challenge 6
+-- SELECT * 
+-- FROM city
+-- WHERE Name LIKE 'F%';
 
