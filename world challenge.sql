@@ -60,3 +60,12 @@ USE world;
 -- JOIN country co ON ct.CountryCode = co.Code
 -- WHERE co.Name = 'Japan'
 -- ORDER BY ct.Population DESC LIMIT 5 ;
+
+-- world challenge 12
+-- UPDATE country
+-- SET HeadOfState = 'Elizabeth II'
+-- WHERE HeadOfState = 'Elisabeth II';
+
+-- SELECT *
+-- FROM country
+-- WHERE HeadOfState = 'Elizabeth II';
