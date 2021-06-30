@@ -44,3 +44,7 @@ USE world;
 -- FROM country
 -- WHERE IndepYear IS NOT NULL AND GNPOld IS NOT NULL AND LifeExpectancy IS NOT NULL
 -- ORDER BY Population ASC LIMIT 1;
+
+-- world challenge 9
+-- SELECT COUNT(*) 
+-- FROM country;
