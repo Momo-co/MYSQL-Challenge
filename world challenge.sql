@@ -82,4 +82,7 @@ USE world;
 -- GROUP BY Language
 -- HAVING COUNT(*) = 1;
 
-
+-- world challenge 15
+-- SELECT Name, GNP
+-- FROM country
+-- ORDER BY GNP DESC LIMIT 10;
